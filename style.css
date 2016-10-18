@@ -1,0 +1,43 @@
+/*
+	Theme Name: Timurtek WEB170
+	Theme URI: http://www.timurtek.com
+	Description: Timurtek's Web 170 WordPress
+*/
+
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	margin:0;
+	padding:0;
+}
+body {
+	background-color: #e9e9e9;
+	font:300 16px Arial, sans-serif;
+	color:#111111;
+}
+h1,h2,h3,h4,h5,h6{
+	padding:10px 0;
+}
+
+.clearfix{clear: both;}
+.wrapper{ padding:30px; width: 100%; max-width: 960px; margin:auto; background-color: #444; }
+
+.row{ display: block; }
+
+.loop-item{
+	display: inline-block;
+	background-color: #ffffff;
+	width: 50%;
+	float:left;
+}
+.loop-item a,.loop-item p{ display: block; padding:10px 20px;}
+.loop-item .post-image{ width: 100%; height:200px; overflow-y: hidden;}
+.loop-item .post-image img{width:100%;}
+
+
+.footer{margin-top:30px;}
